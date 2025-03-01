@@ -31,7 +31,7 @@ body {
 nav {
     display: none !important;
 }
-/* 装飾 */
+/* 文字装飾 */
 .strong-rd {
 	font-weight: 700;
 	color:var(--strong-color);
@@ -79,22 +79,19 @@ nav {
 	padding-left:6em;
 }
 /* シェアボタン */
-.share-button {
+.share-badge {
 	display: inline-block;
-	padding: 4px;
-	background-color: #000000;
-	color: #fff !important;
-	border-radius: 5px;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #333;
+	border-radius: 12px;
 	text-decoration: none;
-	line-height: 1 !important;
-	margin-top: 8px;
-	margin-top: 0.5rem;
-	margin-bottom: 8px;
-	margin-bottom: 0.5rem;
-}
-.share-button:hover {
-	color: #626264 !important;
-}
+  }
+.share-badge:hover {
+	background-color: #555;
+  }
 /* カード（ページトップ） */
 .card-top-container {
     display: flex;
