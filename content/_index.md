@@ -8,7 +8,7 @@ share: true
 ---
 
 <div class="share-button">
-    <a href="https://twitter.com/share?url={{ .Permalink }}&text={{ .Title }}"
+    <a href="https://minnanosaiban.github.io/inpeikousaku/"
        target="_blank" class="bdg-dark" style="color: #FFFFFF;">X-Twitterでシェア</a>
 </div>
 
