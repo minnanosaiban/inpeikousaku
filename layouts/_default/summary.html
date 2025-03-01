@@ -12,6 +12,9 @@
 		{{ with partial "post_meta.html" . -}}
 		<div class="list__meta meta">{{ . }}</div>
 		{{- end }}
+		<div class="share-buttons">
+			{{ partial "share_buttons.html" . }}
+		</div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		{{ .Summary }}

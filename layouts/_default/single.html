@@ -6,6 +6,9 @@
 			{{- with .Params.lead }}
 			<p class="post__lead">{{ . }}</p>
 			{{- end }}
+			<div class="share-buttons">
+				{{ partial "share_buttons.html" . }}
+			</div>
 			{{ with partial "post_meta.html" . -}}
 			<div class="post__meta meta">{{ . }}</div>
 			{{- end }}

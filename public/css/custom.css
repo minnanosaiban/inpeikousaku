@@ -79,19 +79,23 @@ nav {
 	padding-left:6em;
 }
 /* シェアボタン */
-.share-badge {
-	display: inline-block;
-	padding: 6px 12px;
-	font-size: 14px;
-	font-weight: bold;
-	color: white;
-	background-color: #333;
-	border-radius: 12px;
-	text-decoration: none;
-  }
-.share-badge:hover {
-	background-color: #555;
-  }
+.bdg-dark {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #FFFFFF;
+    background-color: #000000;
+} 
+.bdg-dark:hover {
+	background-color: #616161;
+	color: #FFFFFF;
+}
 /* カード（ページトップ） */
 .card-top-container {
     display: flex;
