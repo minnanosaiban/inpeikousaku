@@ -11,7 +11,10 @@ body {
 }
 /* 色 */
 :root {
-    --web-color: #4A90E2;
+    --web-color-primary: #4A90E2; /* : var(--web-color-primary); */
+    --web-color-secondary: #8045e5; /* : var(--web-color-secondary); */
+}
+:root {
     --link-color: #4A90E2;
     --strong-color: #dc3545;
     --table-color: #e5e7ea;
