@@ -16,11 +16,10 @@
 	<meta property="og:site_name" content="{{ .Site.Title }}">
 
 	<!-- Twitter Card meta tags -->
-	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{{ .Title }}">
 	<meta name="twitter:description" content="{{ .Params.Description }}">
 	<meta name="twitter:image" content="{{ .Params.image | absURL }}">
-	<meta name="twitter:site" content="@あなたのTwitterアカウント（必要なら）">
 
 	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" }}
 	{{- if hasPrefix $googleFontsLink "https://fonts.googleapis.com/" }}
