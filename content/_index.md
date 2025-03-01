@@ -7,10 +7,12 @@ sidebar: "left"
 share: true
 ---
 
-<div class="share-button">
-    <a href="https://minnanosaiban.github.io/inpeikousaku/"
-       target="_blank" class="bdg-dark" style="color: #FFFFFF;">X-Twitterでシェア</a>
-</div>
+<p style="margin-bottom: 0;">
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/inpeikousaku &text=公益通報者保護法の不備、法律を悪用する組織、自殺に至る通報者"
+     target="_blank" class="bdg-dark" style="color: #FFFFFF;">
+    X - Twitterでシェア
+  </a>
+</p>
 
 # 日本の通報窓口の現状
 
